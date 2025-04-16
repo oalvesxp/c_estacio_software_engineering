@@ -1,2 +1,6 @@
-# c_super_trunfo
-Projeto da aula de programação de computadores: Faculdade de Engenharia de Software
+# Engenharia de Software - Programação de Computadores: C
+
+- Beginer Level:
+  - Conceitos básicos da lingagem C
+- Adventure Level:
+- Mestre Level:

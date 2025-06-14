@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compilar",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-g",
+        "fundaments/debug/main.c",
+        "-o",
+        "fundaments/debug/main.exe"
+      ],
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}

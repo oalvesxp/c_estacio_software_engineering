@@ -36,7 +36,7 @@ int main()
   scanf("%d", &player);
 
   computer = rand() % 3 + 1;
-
+ 
   printf("Você escolheu: ");
   printChoice(player);
 

@@ -1,18 +1,20 @@
 #include <stdio.h>
 
 int main(void) {
-  int y = 1;
-  char x[] = "ABCDEFGH";
+  int y = 1;              // lines
+  char x[] = "ABCDEFGH";  // columns
 
   printf("Movendo a Rainha de D1 para A4...\n");
 
-  int START = 3;
-  int END = 0;
-  for(int i = START; i >= END; i--)
+  int i = 3;    // index of column D
+  int END = 0;  // index of column A
+
+  do
   {
     printf("%c%d\n",x[i], y);
+    i--;
     y++;
-  };
+  } while (i >= END);
 
   return 0;
 }

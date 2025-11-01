@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-int binary_search(int list[], int size, int target);
+int iterative_binary_search(int list[], int size, int target);
 
 int main() {
   int list[5] = {1, 3, 5, 7, 9};
   int target = 7; // index 3
-  int result = binary_search(list, 5, target);
+  
+  int result = iterative_binary_search(list, 5, target);
 
   if(result == -1)
     printf("Target %d not found in the list.\n", target);
@@ -22,7 +23,7 @@ int main() {
  * @param target The value to search for.
  * @return The index of the target if found; otherwise, -1.
  */
-int binary_search(int list[], int size, int target) {
+int iterative_binary_search(int list[], int size, int target) {
   int left = 0;         // Starting index
   int right = size - 1; // Ending index
 

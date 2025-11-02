@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
-#include "item.h"
+#include "main.h"
 
-#define MAX_ITEMS 10
-
+/**
+ * @brief Counts the number of items in the linked list.
+ */
 static int 
 count_items(const struct No* head) {
   int count = 0;
@@ -39,12 +41,12 @@ insert_item(struct No** head, Item item) {
 }
 
 void 
-list_items(struct No* head, const char* name) {
+list_items(struct No* head) {
   struct No* current = head;
 
   while(current != NULL)
   {
-    printf("Name: %s, Type: %s, Quantity: %d\n", 
+    printf("\nName: %s, Type: %s, Quantity: %d\n", 
             current->data.name, 
             current->data.type, 
             current->data.quantity
@@ -54,14 +56,31 @@ list_items(struct No* head, const char* name) {
   }
 }
 
-void
-remove_item(struct No** head) {
+int
+remove_item(struct No** head, const char* name) {
   if(head != NULL)
   {
-    struct No* temp = *head;
-    *head = (*head)->next;
-    free(temp);
+    struct No* previous = NULL;
+    struct No* current = *head;
+
+    while(current)
+    {
+      if(strcmp(current->data.name, name) == 0)
+      {
+        if(previous) previous->next = current->next;
+        else *head = current->next;
+
+        free(current);
+        return 0;
+      }
+      previous = current;
+      current = current->next;
+    }
+    
+    return -1; // Not found
   }
+
+  return -2; // Invalid pointer
 }
 
 Item* 
@@ -76,4 +95,17 @@ search_item(struct No* head, const char* name) {
   }
   
   return NULL;
+}
+
+void 
+free_items(struct No** head) {
+  if (head == NULL) return;
+  struct No* cur = *head;
+
+  while (cur) {
+    struct No* nxt = cur->next;
+    free(cur);
+    cur = nxt;
+  }
+  *head = NULL;
 }

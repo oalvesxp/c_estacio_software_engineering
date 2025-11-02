@@ -33,9 +33,11 @@
     - Matriz dinâmica
     - Matriz condicional
   - Projeto:
-    - Criação de um jogo de batalha naval.
+    - Criação de um tabuleiro de batalha naval com 3 embarcações posicionadas.
 - Data Structure:
   - Conceitos de estrutura de dados em C
+    - Structs
+    - Headers
     - Lista encadeadas
     - Lista sequencial
     - Busca binária | Iterativa e Recursiva

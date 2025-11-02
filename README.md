@@ -1,4 +1,5 @@
-# Engenharia de Software - Programação de Computadores: C
+# Engenharia de Software - C
+Exercícios e trabalhos referentes as matérias de Programação de computadores & Estrutura de Dados
 
 - Fundamentals:
   - Conceitos fundamentais do C

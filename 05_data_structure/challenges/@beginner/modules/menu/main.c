@@ -87,7 +87,7 @@ menu_print() {
   printf("2. List Items\n");
   printf("3. Search Item\n");
   printf("4. Remove Item\n");
-  printf("5. Exit\n");
+  printf("0. Exit\n");
   printf("Please select an option: ");
 }
 
@@ -106,9 +106,8 @@ void menu_handle_option(int option, struct No** head) {
     case 4:
       option_remove(head);
       break;
-    case 5:
-      printf("\nExiting the program.\n");
-      return;
+    case 0:
+      printf("\nExiting program. Goodbye!\n");
       break;
     default:
       menu_clear_screen();

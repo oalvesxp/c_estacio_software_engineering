@@ -13,14 +13,12 @@ int main() {
     menu_print();
     read_line(opt_buf, sizeof(opt_buf));
     int option = atoi(opt_buf);
+    
+    menu_handle_option(option, &items);
 
     if(option == 0) break;
-
-    menu_handle_option(option, &items);
   }
 
   free_items(&items);
-  printf("Exiting program. Goodbye!\n");
-
   return 0;
 }

@@ -1,6 +1,49 @@
 # Engenharia de Software - Programação de Computadores: C
 
+- Fundamentals:
+  - Conceitos fundamentais do C
+    - Operadores aritméticos
+    - printf
+    - Tipos
+    - Debug
 - Beginer Level:
   - Conceitos básicos da lingagem C
+    - Variáveis
+    - Tipos de dados
+    - Entrada de dados
+  - Projetos:
+    - Criação de um formulário.
 - Adventure Level:
+  - Conceitos de lógica em C
+    - Operadores lógicos
+    - Pseudo código
+    - Funções
+    - Estrutura de condições encadeadas
+    - Estrutura de condições aninhadas
+    - Menus interativos
+    - Switch / Case
+    - Do / While
+    - For
+    - While
+  - Projetos:
+    - Criação de um jogo de jokenpo.
 - Mestre Level:
+  - Conceitos de matrizes em C
+    - Matriz
+    - Matriz dinâmica
+    - Matriz condicional
+  - Projeto:
+    - Criação de um jogo de batalha naval.
+- Data Structure:
+  - Conceitos de estrutura de dados em C
+    - Lista encadeadas
+    - Lista sequencial
+    - Busca binária | Iterativa e Recursiva
+  - Projeto:
+    - Criação da lógica de bag de um jogo: 
+    
+      Lista com 10 itens + Menu de opções para:
+        - Inserir um item na bolsa
+        - Listar todos os itens
+        - Remover um Item
+        - Buscar um item por nome

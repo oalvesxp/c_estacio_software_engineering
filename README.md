@@ -15,8 +15,8 @@ Exercícios e trabalhos referentes as matérias de Programação de computadores
   - Projetos:
     - Criação de um formulário para cadastro de pessoas
     - Desafio do jogo de supertrunfo:
-      - [Iniciante](https://github.com/Cursos-TI/desafio-cadastro-das-cartas-no-super-trunfo-oalvesxp)
-      - [Mestre](https://github.com/Cursos-TI/desafio-l-gica-super-trunfo-oalvesxp/blob/main/logicaSuperTrunfo.c)
+      - [Lógica](https://github.com/oalvesxp/c_desafio_logica_super_trunfo)
+      - [Jogo](https://github.com/oalvesxp/c_desafio_cadastro_das_cartas_no_super_trunfo)
 - Adventure Level:
   - Conceitos de lógica em C
     - Operadores lógicos
@@ -32,14 +32,17 @@ Exercícios e trabalhos referentes as matérias de Programação de computadores
   - Projetos:
     - Criação de um jogo de jokenpo.
     - Desafio de tabuleiro de xadrez:
-      - [Mestre](https://github.com/Cursos-TI/desafio-xadrez-oalvesxp)
+      - [Mestre](https://github.com/oalvesxp/c_desafio_xadrez)
 - Mestre Level:
   - Conceitos de matrizes em C
     - Matriz
     - Matriz dinâmica
     - Matriz condicional
   - Projeto:
-    - Criação de um tabuleiro de batalha naval com 3 embarcações posicionadas.
+    - Desafio tabuleiro de batalha naval:
+      - [Iniciante](https://github.com/oalvesxp/c_desafio_batalha_naval)
+      - [Aventureiro](https://github.com/oalvesxp/c_desafio_batalha_naval)
+      - [Mestre](https://github.com/oalvesxp/c_desafio_batalha_naval)
 - Data Structure:
   - Conceitos de estrutura de dados em C
     - Structs

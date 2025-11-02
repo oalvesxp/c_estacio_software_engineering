@@ -12,7 +12,10 @@
     - Tipos de dados
     - Entrada de dados
   - Projetos:
-    - Criação de um formulário.
+    - Criação de um formulário para cadastro de pessoas
+    - Desafio do jogo de supertrunfo:
+      - [Iniciante](https://github.com/Cursos-TI/desafio-cadastro-das-cartas-no-super-trunfo-oalvesxp)
+      - [Mestre](https://github.com/Cursos-TI/desafio-l-gica-super-trunfo-oalvesxp/blob/main/logicaSuperTrunfo.c)
 - Adventure Level:
   - Conceitos de lógica em C
     - Operadores lógicos
@@ -27,6 +30,8 @@
     - While
   - Projetos:
     - Criação de um jogo de jokenpo.
+    - Desafio de tabuleiro de xadrez:
+      - [Mestre](https://github.com/Cursos-TI/desafio-xadrez-oalvesxp)
 - Mestre Level:
   - Conceitos de matrizes em C
     - Matriz

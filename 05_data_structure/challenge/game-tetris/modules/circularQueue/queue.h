@@ -50,6 +50,6 @@ int dequeue(CircularQueue *q, Part *item);
  * @param reserved Pointer to the ReservedParts structure
  * @return 0 if successful, -1 if reservation fails
  */
-int reservePartFromQueue(CircularQueue *q, Part *item, ReservedParts *reserved);
+int reservePartFromQueue(CircularQueue *q, ReservedParts *reserved, Part *item);
 
 #endif // QUEUE_H

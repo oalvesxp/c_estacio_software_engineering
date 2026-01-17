@@ -51,7 +51,7 @@ dequeue(CircularQueue *q, Part *item) {
 }
 
 int
-reservePartFromQueue(CircularQueue *q, Part *item, ReservedParts *reserved) {
+reservePartFromQueue(CircularQueue *q, ReservedParts *reserved, Part *item) {
   if(q->size == 0) return -1; // Queue is empty
   if(reservedPartsIsFull(reserved)) return -1; // Reserved parts full
 

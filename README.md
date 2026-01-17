@@ -54,6 +54,6 @@ Exercícios e trabalhos referentes as matérias de Programação de computadores
     - Filas circulares
   - Projeto:
     - Criação da lógica de bag de um jogo: 
-      - [Iniciante](https://github.com/oalvesxp/)
+      - [Iniciante](https://github.com/oalvesxp/c_estacio_software_engineering/tree/master/05_data_structure/challenge/game-bag)
     - Criacao da lógica de um jogo de Tetris:
-      - [Aventureiro](https://github.com/oalvesxp/) In development...
+      - [Aventureiro](https://github.com/oalvesxp/c_estacio_software_engineering/tree/master/05_data_structure/challenge/game-tetris) In development...

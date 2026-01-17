@@ -26,15 +26,15 @@ int gamePlayFromQueue(GameState *g, Part *played);
 /**
  * @brief Reserves a part from the circular queue.
  * @param g Pointer to the GameState structure
- * @param reserved Pointer to store the reserved Part
+ * @param item Pointer to store the reserved Part
  */
-//void gameReserveFromQueue(GameState *g, Part *reserved);
+int gameReserveFromQueue(GameState *g, Part *reserve);
 
 /**
  * @brief Uses the reserved part.
  * @param g Pointer to the GameState structure
  * @param used Pointer to store the used Part
  */
-//void gameUseReservedPart(GameState *g, Part *used);
+int gamePlayReservedPart(GameState *g, Part *used);
 
 #endif // GAME_H

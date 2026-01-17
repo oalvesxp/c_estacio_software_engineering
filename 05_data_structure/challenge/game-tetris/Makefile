@@ -3,7 +3,8 @@ CC =	gcc
 CFLAGS = -Wall -Wextra -std=c11	
 
 SRC = main.c \
-			modules/circularQueue/part.c \
+			modules/tetrisParts/part.c \
+			# modules/circularQueue/queue.c \
 			# modules/reservedParts/*.c \
 			# utils/heap.c
 

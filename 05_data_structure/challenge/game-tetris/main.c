@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "modules/circularQueue/part.h"
+#include "modules/tetrisParts/part.h"
 
 int
 main(void) {

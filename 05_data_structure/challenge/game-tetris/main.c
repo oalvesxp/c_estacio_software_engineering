@@ -2,16 +2,24 @@
 #include <stdlib.h>
 #include <time.h>
 #include "modules/tetrisParts/part.h"
+#include "modules/circularQueue/queue.h"
 
 int
 main(void) {
   srand(time(NULL)); // semente para números aleatórios
 
+  CircularQueue queue;
+  initQueue(&queue);
+
   Part p;
-  for(int i = 1; i <= 10; i++){
+  for(int i = 1; i <= 5; i++){
     generatePart(&p);
-    printf("Peça gerada: [%c %d]\n", p.name[0], p.id);
+    enqueue(&queue, p);
   };
+
+  printf("\n");
+  dequeue(&queue, &p);
+  dequeue(&queue, &p);
 
   return 0;
 }

@@ -1,9 +1,6 @@
 #ifndef QUEUE_H
 #define QUEUE_H
 
-#define MAX_QUEUE_SIZE 5
-#define RANDOM_BLOCKS 4
-
 typedef struct {
   char name[1];
   int id;

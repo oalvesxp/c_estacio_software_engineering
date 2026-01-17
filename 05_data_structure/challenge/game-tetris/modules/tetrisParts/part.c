@@ -5,7 +5,7 @@
 void
 generatePart(Part *p) {
   char items[4] = {'I', 'O', 'T', 'L'};
-  int index = rand() % 4;
+  int index = rand() % (sizeof(items));
 
   static int counter = 1;
 

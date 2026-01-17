@@ -3,6 +3,7 @@
 #include <time.h>
 #include "modules/tetrisParts/part.h"
 #include "modules/circularQueue/queue.h"
+#include "modules/reservedParts/reserved.h"
 
 int
 main(void) {
@@ -10,6 +11,9 @@ main(void) {
 
   CircularQueue queue;
   initQueue(&queue);
+
+  ReservedParts reservedParts;
+  initReservedParts(&reservedParts);
 
   Part p;
   for(int i = 1; i <= 5; i++){
@@ -21,5 +25,22 @@ main(void) {
   dequeue(&queue, &p);
   dequeue(&queue, &p);
 
+  reservePartFromQueue(&queue, &p, &reservedParts);
+  showReservedParts(&reservedParts);
+
+  reservePartFromQueue(&queue, &p, &reservedParts);
+  showReservedParts(&reservedParts);
+  
+  reservePartFromQueue(&queue, &p, &reservedParts);
+  showReservedParts(&reservedParts);
+
+  reservePartFromQueue(&queue, &p, &reservedParts);
+  showReservedParts(&reservedParts);
+
+  pop(&reservedParts, &p);
+  showReservedParts(&reservedParts);
+
+  reservePartFromQueue(&queue, &p, &reservedParts);
+  showReservedParts(&reservedParts);
   return 0;
 }

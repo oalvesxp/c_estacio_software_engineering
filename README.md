@@ -50,11 +50,10 @@ Exercícios e trabalhos referentes as matérias de Programação de computadores
     - Lista encadeadas
     - Lista sequencial
     - Busca binária | Iterativa e Recursiva
+    - Pilhas
+    - Filas circulares
   - Projeto:
     - Criação da lógica de bag de um jogo: 
-    
-      Lista com 10 itens + Menu de opções para:
-        - Inserir um item na bolsa
-        - Listar todos os itens
-        - Remover um Item
-        - Buscar um item por nome
+      - [Iniciante](https://github.com/oalvesxp/)
+    - Criacao da lógica de um jogo de Tetris:
+      - [Aventureiro](https://github.com/oalvesxp/) In development...

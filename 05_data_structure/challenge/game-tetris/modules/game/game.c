@@ -19,3 +19,14 @@ initGame(GameState *g) {
 
   g->initialized = 1;
 }
+
+int
+gamePlayFromQueue(GameState *g, Part *played) {
+  if(dequeue(&g->queue, played) != 0) return -1;
+
+  Part p;
+  generatePart(&p);
+  enqueue(&g->queue, p);
+
+  return 0;
+}

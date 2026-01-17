@@ -21,7 +21,7 @@ void initGame(GameState *g);
  * @param g Pointer to the GameState structure
  * @param played Pointer to store the played Part
  */
-//void gamePlayFromQueue(GameState *g, Part *played);
+int gamePlayFromQueue(GameState *g, Part *played);
 
 /**
  * @brief Reserves a part from the circular queue.

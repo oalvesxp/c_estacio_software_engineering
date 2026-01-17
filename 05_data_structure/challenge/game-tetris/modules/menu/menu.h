@@ -8,13 +8,13 @@
 /**
  * @brief Prints the menu options.
  */
-void menu_print();
+void menuPrint();
 
 /**
  * @brief Handles the selected menu option.
  * @param option The selected option
  * @param g Pointer to the GameState structure
  */
-void menu_handle_option(int option, GameState *g);
+void handleMenuOption(int option, GameState *g);
 
 #endif // MENU_H

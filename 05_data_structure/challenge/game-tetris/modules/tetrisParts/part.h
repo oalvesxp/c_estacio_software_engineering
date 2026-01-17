@@ -1,5 +1,5 @@
-#ifndef QUEUE_H
-#define QUEUE_H
+#ifndef PART_H
+#define PART_H
 
 typedef struct {
   char name[1];
@@ -12,4 +12,4 @@ typedef struct {
  */
 void generatePart(Part *p);
 
-#endif // QUEUE_H
+#endif // PART_H

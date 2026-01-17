@@ -53,7 +53,5 @@ Exercícios e trabalhos referentes as matérias de Programação de computadores
     - Pilhas
     - Filas circulares
   - Projeto:
-    - Desafio Bolsa de Items: 
-      - [Iniciante](https://github.com/oalvesxp/c_estacio_software_engineering/tree/master/05_data_structure/challenge/game-bag)
-    - Desafio Tetris:
-      - [Aventureiro](https://github.com/oalvesxp/c_estacio_software_engineering/tree/master/05_data_structure/challenge/game-tetris) In development...
+    - Desafio Bolsa de Items: [Iniciante](https://github.com/oalvesxp/c_estacio_software_engineering/tree/master/05_data_structure/challenge/game-bag)
+    - Desafio Tetris: [Aventureiro](https://github.com/oalvesxp/c_estacio_software_engineering/tree/master/05_data_structure/challenge/game-tetris) In development...

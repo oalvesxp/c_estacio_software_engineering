@@ -10,5 +10,6 @@ generatePart(Part *p) {
   static int counter = 1;
 
   p->name[0] = items[index];
+  p->name[1] = '\0';
   p->id = counter++;
 }

@@ -2,7 +2,7 @@
 #define PART_H
 
 typedef struct {
-  char name[1];
+  char name[2];
   int id;
 } Part;
 

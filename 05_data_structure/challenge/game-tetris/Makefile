@@ -6,7 +6,9 @@ SRC = main.c \
 			modules/tetrisParts/part.c \
 			modules/circularQueue/queue.c \
 			modules/reservedParts/reserved.c \
-			# utils/heap.c
+			modules/menu/menu.c \
+			modules/game/game.c \
+			utils/read-input.c
 
 OBJ = $(SRC:.c=.o)
 $(TARGET): $(OBJ)

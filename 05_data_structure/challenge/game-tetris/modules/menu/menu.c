@@ -38,16 +38,24 @@ handleMenuOption(int option, GameState *g) {
   switch(option) {
     case 1:
       if(gamePlayFromQueue(g, &p) == 0) {
-        printf("Played part: %c (ID: %d)\n", p.name[0], p.id);
+        printf("Played part: [%c %d]\n", p.name[0], p.id);
       } else {
         printf("Failed to play part from queue.\n");
       }
       break;
     case 2:
-      // Reserve part from circular queue...
+      if(gameReserveFromQueue(g, &p) == 0) {
+        printf("Reserved part: [%c %d]\n", p.name[0], p.id);
+      } else {
+        printf("Failed to reserve part from queue.\n");
+      }
       break;
     case 3:
-      // Use part from reserved parts...
+      if(gamePlayReservedPart(g, &p) == 0) {
+        printf("Used reserved part: [%c %d]\n", p.name[0], p.id);
+      } else {
+        printf("Failed to use reserved part.\n");
+      }
       break;
     case 0:
       // Exit handled in main loop

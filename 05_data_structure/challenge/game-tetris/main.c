@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "modules/circularQueue/queue.h"
+#include "modules/circularQueue/part.h"
 
 int
 main(void) {

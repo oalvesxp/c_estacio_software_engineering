@@ -35,7 +35,7 @@ int isFull(CircularQueue *q);
 int enqueue(CircularQueue *q, Part item);
 
 /**
- * @brief Dequeues a Tetris part from the circular queue.
+ * @brief Dequeues a Tetris part from the circular queue and refills it.
  * @param q Pointer to the CircularQueue structure
  * @param item Pointer to the Part structure to store the dequeued part
  * @return 0 if successful, -1 if the queue is empty

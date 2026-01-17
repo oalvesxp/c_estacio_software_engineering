@@ -3,6 +3,7 @@
 #define QUEUE_H
 
 #include "../tetrisParts/part.h"
+#include "../reservedParts/reserved.h"
 
 #define MAX_ITEMS 5
 
@@ -24,7 +25,7 @@ void initQueue(CircularQueue *q);
  * @param q Pointer to the CircularQueue structure
  * @return 0 if successful, -1 if the queue is full
  */
-int isFull(CircularQueue *q);
+int circularQueueIsFull(CircularQueue *q);
 
 /**
  * @brief Checks if the circular queue is empty.
@@ -42,6 +43,13 @@ int enqueue(CircularQueue *q, Part item);
  */
 int dequeue(CircularQueue *q, Part *item);
 
-//TODO int reservePart(CircularQueue *q, Part *item, ReservedParts *reserved);
+/**
+ * @brief Reserves a Tetris part from the circular queue into reserved parts.
+ * @param q Pointer to the CircularQueue structure
+ * @param item Pointer to the Part structure to store the reserved part
+ * @param reserved Pointer to the ReservedParts structure
+ * @return 0 if successful, -1 if reservation fails
+ */
+int reservePartFromQueue(CircularQueue *q, Part *item, ReservedParts *reserved);
 
 #endif // QUEUE_H

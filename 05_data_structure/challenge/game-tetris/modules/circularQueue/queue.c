@@ -10,13 +10,13 @@ initQueue(CircularQueue *q) {
 }
 
 int
-isFull(CircularQueue *q) {
+circularQueueIsFull(CircularQueue *q) {
   return q->size == MAX_ITEMS;
 }
 
 int
 enqueue(CircularQueue *q, Part item) {
-  if(isFull(q)) {
+  if(circularQueueIsFull(q)) {
     return -1; // Queue is full
   }
 
@@ -44,6 +44,27 @@ dequeue(CircularQueue *q, Part *item) {
   Part new;
   generatePart(&new);
   enqueue(q, new); // Refill the queue after dequeue
+
+  printf("\n");
+
+  return 0; // Success
+}
+
+int
+reservePartFromQueue(CircularQueue *q, Part *item, ReservedParts *reserved) {
+  if(q->size == 0) return -1; // Queue is empty
+  if(reservedPartsIsFull(reserved)) return -1; // Reserved parts full
+
+  *item = q->items[q->front];
+  q->front = (q->front + 1) % MAX_ITEMS;
+  q->size--;
+  push(reserved, *item);
+
+  printf("Reserved Part from Queue: [%s, %d]\n", item->name, item->id);
+
+  Part new;
+  generatePart(&new);
+  enqueue(q, new); // Refill the queue after reservation
 
   printf("\n");
 

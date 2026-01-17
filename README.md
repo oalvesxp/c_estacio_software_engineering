@@ -53,7 +53,7 @@ Exercícios e trabalhos referentes as matérias de Programação de computadores
     - Pilhas
     - Filas circulares
   - Projeto:
-    - Criação da lógica de bag de um jogo: 
+    - Desafio Bolsa de Items: 
       - [Iniciante](https://github.com/oalvesxp/c_estacio_software_engineering/tree/master/05_data_structure/challenge/game-bag)
-    - Criacao da lógica de um jogo de Tetris:
+    - Desafio Tetris:
       - [Aventureiro](https://github.com/oalvesxp/c_estacio_software_engineering/tree/master/05_data_structure/challenge/game-tetris) In development...

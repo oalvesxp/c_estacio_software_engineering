@@ -49,6 +49,10 @@ Exercícios e trabalhos referentes as matérias de Programação de computadores
     - Headers
     - Lista encadeadas
     - Lista sequencial
+    - Sort
+      - Bubble sort
+      - Insection sort
+      - Selection sort
     - Busca binária | Iterativa e Recursiva
     - Pilhas
     - Filas circulares

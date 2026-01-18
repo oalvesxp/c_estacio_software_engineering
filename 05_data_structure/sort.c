@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sort(int* a, int* b){
+void swap(int* a, int* b){
   int temp;
 
   temp = *a;
@@ -11,7 +11,7 @@ void sort(int* a, int* b){
 int main(){
   int x = 5;
   int y = 3;
-  sort(&x, &y);
+  swap(&x, &y);
   printf("a: %d, b: %d\n", x, y);
 
   return 0;

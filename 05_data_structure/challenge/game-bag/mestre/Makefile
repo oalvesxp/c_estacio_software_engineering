@@ -4,6 +4,7 @@ CFLAGS = -Wall -Wextra -std=c11
 
 SRC = main.c \
 			modules/item/item.c \
+			modules/menu/menu.c \
 			# utils/*.c \
 			# modules/*/*.c
 

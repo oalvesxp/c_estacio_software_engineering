@@ -49,12 +49,13 @@ Exercícios e trabalhos referentes as matérias de Programação de computadores
     - Headers
     - Lista encadeadas
     - Lista sequencial
+    - Sort
+      - Bubble sort
+      - Insection sort
+      - Selection sort
     - Busca binária | Iterativa e Recursiva
+    - Pilhas
+    - Filas circulares
   - Projeto:
-    - Criação da lógica de bag de um jogo: 
-    
-      Lista com 10 itens + Menu de opções para:
-        - Inserir um item na bolsa
-        - Listar todos os itens
-        - Remover um Item
-        - Buscar um item por nome
+    - Desafio Bolsa de Items: [Iniciante](https://github.com/oalvesxp/c_estacio_software_engineering/tree/master/05_data_structure/challenge/game-bag)
+    - Desafio Tetris: [Aventureiro](https://github.com/oalvesxp/c_estacio_software_engineering/tree/master/05_data_structure/challenge/game-tetris) In development...
